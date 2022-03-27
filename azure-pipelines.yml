@@ -59,8 +59,8 @@ jobs:
     value: TestURLs.json
     # Project name of repo containing TestAutomationURLs (spaces should be encoded as %20)
     # Example: Contoso Test Framework --> Contoso%20Test%20Framework
-  - name: SRB Test Automation
-    value: PowerAppsTestAutomation
+  - name: LocalProjectName
+    value: ActivitiesTestAutomation
 
   steps:
   - checkout: self
