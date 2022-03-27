@@ -34,7 +34,7 @@ parameters:
  - name: LoginMethod
    displayName: Login Type # See: https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/user-account-management
    type: string
-   default: FederatedIdentity
+   default: CloudIdentity
    values:
    - CloudIdentity # Uses the default Office 365 Sign-In Service for authentication
    - FederatedIdentity # Uses a Custom Login Action method using AD FS 2.0 or other Security Token Services for authentication. Custom code is required.
